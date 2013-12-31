@@ -1,0 +1,29 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: 2adc32.mcp
+# Date: Sat May 21 11:08:04 2011
+
+AS = pic32-as.exe
+CC = pic32-gcc.exe
+LD = pic32-ld.exe
+AR = pic32-ar.exe
+HX = pic32-bin2hex.exe
+RM = rm
+
+2adc32.hex : 2adc32.elf
+	$(HX) "2adc32.elf"
+
+2adc32.elf : 2adc32.o Hsha1.o SD-SPI.o
+	$(CC) -mprocessor=32MX360F512L "2adc32.o" "Hsha1.o" "SD-SPI.o" -o"2adc32.elf" -Wl,-L"C:\Microchip Starter Kits\PIC32 Starter Kits\MPLAB C32 Suite\lib",-L"C:\Microchip Starter Kits\PIC32 Starter Kits\MPLAB C32 Suite\pic32mx\lib",--defsym=__MPLAB_BUILD=1,--defsym=__MPLAB_DEBUG=1,--defsym=__MPLAB_DEBUGGER_PIC32MXSK=1,-Map="2adc32.map"
+
+2adc32.o : 2adc32.c ../../Microchip\ Starter\ Kits/PIC32\ Starter\ Kits/MPLAB\ C32\ Suite/pic32-libs/include/peripheral/adc10.h ../../Microchip\ Starter\ Kits/PIC32\ Starter\ Kits/MPLAB\ C32\ Suite/pic32-libs/include/peripheral/timer.h sha1.h FSConfig.h HardwareProfile.h ../../Microchip\ Starter\ Kits/PIC32\ Starter\ Kits/Microchip/Include/MDD\ File\ System/SD-SPI.h FSconfig.h HardwareProfile.h ../../Microchip\ Starter\ Kits/PIC32\ Starter\ Kits/Microchip/Include/MDD\ File\ System/FSDefs.h
+	$(CC) -mprocessor=32MX360F512L -x c -c "2adc32.c" -o"2adc32.o" -MMD -MF"2adc32.d" -I"D:\Micro\Code" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\Microchip\MDD File System" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\Microchip\Include\MDD File System" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\MPLAB C32 Suite\pic32-libs\include\peripheral" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\Microchip\Include" -D__DEBUG -D__MPLAB_DEBUGGER_PIC32MXSK=1 -g -DSYS_CLOCK=80000000
+
+Hsha1.o : Hsha1.c sha1.h
+	$(CC) -mprocessor=32MX360F512L -x c -c "Hsha1.c" -o"Hsha1.o" -MMD -MF"Hsha1.d" -I"D:\Micro\Code" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\Microchip\MDD File System" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\Microchip\Include\MDD File System" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\MPLAB C32 Suite\pic32-libs\include\peripheral" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\Microchip\Include" -D__DEBUG -D__MPLAB_DEBUGGER_PIC32MXSK=1 -g -DSYS_CLOCK=80000000
+
+SD-SPI.o : ../../Microchip\ Starter\ Kits/PIC32\ Starter\ Kits/Microchip/MDD\ File\ System/SD-SPI.c ../../Microchip\ Starter\ Kits/PIC32\ Starter\ Kits/Microchip/Include/Compiler.h ../../Microchip\ Starter\ Kits/PIC32\ Starter\ Kits/Microchip/Include/MDD\ File\ System/FSIO.h FSconfig.h HardwareProfile.h ../../Microchip\ Starter\ Kits/PIC32\ Starter\ Kits/Microchip/Include/MDD\ File\ System/FSDefs.h ../../Microchip\ Starter\ Kits/PIC32\ Starter\ Kits/Microchip/Include/MDD\ File\ System/SD-SPI.h ../../Microchip\ Starter\ Kits/PIC32\ Starter\ Kits/Microchip/Include/MDD\ File\ System/FSDefs.h ../../Microchip\ Starter\ Kits/PIC32\ Starter\ Kits/Microchip/Include/MDD\ File\ System/SD-SPI.h FSConfig.h HardwareProfile.h
+	$(CC) -mprocessor=32MX360F512L -x c -c "D:\Microchip Starter Kits\PIC32 Starter Kits\Microchip\MDD File System\SD-SPI.c" -o"SD-SPI.o" -MMD -MF"SD-SPI.d" -I"D:\Micro\Code" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\Microchip\MDD File System" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\Microchip\Include\MDD File System" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\MPLAB C32 Suite\pic32-libs\include\peripheral" -I"D:\Microchip Starter Kits\PIC32 Starter Kits\Microchip\Include" -D__DEBUG -D__MPLAB_DEBUGGER_PIC32MXSK=1 -g -DSYS_CLOCK=80000000
+
+clean : 
+	$(RM) "2adc32.o" "Hsha1.o" "SD-SPI.o" "2adc32.elf" "2adc32.hex"
+

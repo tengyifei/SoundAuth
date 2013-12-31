@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SoundAuthenticatorActivity!</string>
+    <string name="app_name">SoundAuthenticator</string>
+    <string name="curr_noise_level">Current Audio Level:</string>
+    <string name="empty_string">                 </string>
+    <string name="testperf">test performance</string>
+    <string name="textTime">Time per pass:</string>
+    <string name="ok_string">OK</string>
+    <string name="edit_button">Edit</string>
+    <string name="colorsuc">#00FF00</string>
+
+</resources>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundAuth", "SoundAuth\SoundAuth.csproj", "{27E485B2-D36C-4EEF-8096-99D4A0F93D27}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "Deployer", "Deployer\Deployer.vddproj", "{15DD2857-9516-4BBC-B9BB-FF8DC74C63FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27E485B2-D36C-4EEF-8096-99D4A0F93D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E485B2-D36C-4EEF-8096-99D4A0F93D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E485B2-D36C-4EEF-8096-99D4A0F93D27}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{27E485B2-D36C-4EEF-8096-99D4A0F93D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E485B2-D36C-4EEF-8096-99D4A0F93D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E485B2-D36C-4EEF-8096-99D4A0F93D27}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{15DD2857-9516-4BBC-B9BB-FF8DC74C63FA}.Debug|Any CPU.ActiveCfg = Debug
+		{15DD2857-9516-4BBC-B9BB-FF8DC74C63FA}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

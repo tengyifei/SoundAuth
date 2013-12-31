@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SoundAuth</string>
+    <string name="auth_text">Auth:</string>
+    <string name="cnt_text">Cnt:</string>
+    <string name="init_0">0</string>
+    <string name="button_generate">Authenticate</string>
+    <string name="lesshf">Less HF</string>
+    <string name="morehf">More HF</string>
+
+</resources>

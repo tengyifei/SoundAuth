@@ -1,0 +1,9 @@
+F:\Projects\RBTest\SoundAuth\SoundAuth\bin\Debug\SoundAuth.exe
+F:\Projects\RBTest\SoundAuth\SoundAuth\bin\Debug\SoundAuth.pdb
+F:\Projects\RBTest\SoundAuth\SoundAuth\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\RBTest\SoundAuth\SoundAuth\obj\Debug\SoundAuth.FormMain.resources
+F:\Projects\RBTest\SoundAuth\SoundAuth\obj\Debug\SoundAuth.Properties.Resources.resources
+F:\Projects\RBTest\SoundAuth\SoundAuth\obj\Debug\SoundAuth.csproj.GenerateResource.Cache
+F:\Projects\RBTest\SoundAuth\SoundAuth\obj\Debug\SoundAuth.exe
+F:\Projects\RBTest\SoundAuth\SoundAuth\obj\Debug\SoundAuth.pdb
+F:\Projects\RBTest\SoundAuth\SoundAuth\obj\Debug\SoundAuth.FormAdmin.resources

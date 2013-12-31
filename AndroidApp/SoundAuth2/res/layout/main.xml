@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="match_parent"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="bottom|right"
+        android:layout_row="3" />
+
+    <Space
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0" />
+
+    <EditText
+        android:id="@+id/authnum"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/init_0" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="@string/auth_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/cntnum"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="1"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/init_0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:layout_row="1"
+        android:text="@string/cnt_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/generate"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:text="@string/button_generate" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="66dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:text="@string/lesshf"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_column="1"
+        android:layout_gravity="right"
+        android:layout_row="4"
+        android:text="@string/morehf"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <tyfcxy.soundAuth2.myView
+        android:id="@+id/view1"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill|fill_vertical"
+        android:layout_marginBottom="210dp"
+        android:layout_row="5" />
+
+</GridLayout>
