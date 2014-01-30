@@ -15,4 +15,4 @@ Management Console: Embarcadero RAD Studio XE
 
 Windows Mobile App: VS2008 w WM6.5 SDK
 
-![Image](http://airy-runway-260.appspot.com/servimg?id=a)
+![alt tag](http://airy-runway-260.appspot.com/servimg?id=a)
