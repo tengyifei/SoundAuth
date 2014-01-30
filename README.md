@@ -14,3 +14,5 @@ PIC32 Receiver: MPLab 9 PIC32 Starter Kit
 Management Console: Embarcadero RAD Studio XE
 
 Windows Mobile App: VS2008 w WM6.5 SDK
+
+![Image](http://1-dot-airy-runway-260.appspot.com/servimg?id=a)
